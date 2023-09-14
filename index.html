@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pagination Example</title>
+		<link rel="icon" href="https://img.icons8.com/ios/250/FFFFFF/gift.png" />
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body>
+		<div
+			id="container"
+			class="flex justify-center items-center flex-wrap gap-7 my-10"
+		></div>
+
+		<div
+			id="loader"
+			class="flex justify-center items-center font-semibold text-2xl py-24"
+		>
+			<h3>Hang on, Loading Content</h3>
+		</div>
+
+		<div
+			id="end"
+			class="hidden justify-center items-center font-semibold text-2xl pb-10 pt-2"
+		>
+			<h3>No more products to show</h3>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
